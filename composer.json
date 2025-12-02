@@ -13,6 +13,7 @@
         "php": "^8.2",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1",
+        "spatie/commonmark-shiki-highlighter": "^2.5",
         "statamic/cms": "^5.0",
         "statamic/ssg": "^3.1"
     },
