@@ -10,7 +10,7 @@ use Statamic\Facades\Markdown;
 
 class AppServiceProvider extends ServiceProvider
 {
-    protected string $highlightTheme = 'material-theme-lighter';
+    protected string $highlightTheme = 'material-theme-palenight';
 
     public function register(): void
     {
