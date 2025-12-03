@@ -1,0 +1,84 @@
+tree:
+  -
+    id: 56946a3e-714a-4070-96df-ba7b3cfbc1bb
+    title: Getting Started
+    children:
+      -
+        id: 2eabe84a-bb94-4339-b628-d1c2b035efd3
+        entry: 6b840926-cefd-4f71-b327-1ab3a0c2d5ca
+      -
+        id: e80d66e0-9110-4264-8619-c8ae2a6522ea
+        entry: 2d3e4f5a-6b7c-8d9e-0f1a-2b3c4d5e6f7a
+      -
+        id: 5b56bad1-0a8e-479b-a4e5-812a30096e91
+        entry: f4a5b6c7-d8e9-0f1a-2b3c-4d5e6f7a8b9c
+  -
+    id: 033c5ef4-6635-43ef-bb34-aae3dd295bed
+    title: Architecture
+    children:
+      -
+        id: 2a129ec1-3f47-4af4-8e20-1c7b608778f3
+        entry: 3e4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a8b
+      -
+        id: 00423c16-b619-48fb-9d78-8378c144a687
+        entry: 4f5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b9c
+      -
+        id: 00423c16-b619-58fb-9d78-8378c144a687
+        entry: 5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d
+      -
+        id: 00423c16-c619-48fb-9d78-8378c144a687
+        entry: 6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e
+  -
+    id: b4381128-05e1-42ad-a483-9e5b8a931eb3
+    title: Models
+    children:
+      -
+        id: e1b193dc-48ce-452a-a348-6771db760f83
+        entry: 1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
+      -
+        id: e1a194dc-48ce-452a-a348-6771db770f83
+        title: Products & Catalog
+        children:
+          -
+            id: prod-001
+            entry: 1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d
+          -
+            id: prod-002
+            entry: 2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e
+          -
+            id: prod-003
+            entry: 3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f
+      -
+        id: e07fdd79-1e9c-4c64-9f6d-bce9e8d7c13f
+        title: Orders & Customers
+        children:
+          -
+            id: ord-001
+            entry: 4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a
+          -
+            id: ord-002
+            entry: 5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b
+      -
+        id: dd581cfc-239a-4bc5-880b-33beaea18da1
+        title: Sites & Channels
+        children:
+          -
+            id: site-001
+            entry: 6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1c
+          -
+            id: site-002
+            entry: 7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d
+  -
+    id: 8eff0c54-365f-443c-a781-677d2299c2ed
+    title: REST API
+    children:
+      -
+        id: api-001
+        entry: 8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3e
+  -
+    id: 8eff0c54-365f-533c-a781-677d2299c2ed
+    title: Frontend
+    children:
+      -
+        id: front-001
+        entry: 9c0d1e2f-3a4b-5c6d-7e8f-9a0b1c2d3e4f

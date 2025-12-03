@@ -21,6 +21,6 @@
         "@alpinejs/focus": "^3.15.2",
         "@fontsource/poppins": "^5.2.7",
         "alpinejs": "^3.15.2",
-        "shiki": "^3.18.0"
+        "shiki": "^3.19.0"
     }
 }
