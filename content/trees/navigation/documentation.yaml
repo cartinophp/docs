@@ -1,0 +1,532 @@
+tree:
+  -
+    id: getting-started
+    title: Getting Started
+    children:
+      -
+        id: overview
+        entry: overview-cartino
+      -
+        id: installation
+        entry: installation
+      -
+        id: quick-start
+        title: Quick Start
+      -
+        id: configuration
+        title: Configuration
+      -
+        id: upgrading
+        title: Upgrading
+  -
+    id: architecture
+    title: Architecture
+    children:
+      -
+        id: sites-architecture
+        title: Sites as Markets
+      -
+        id: product-architecture
+        title: Product & Variants
+      -
+        id: blueprint-system
+        title: Blueprint System
+      -
+        id: database-schema
+        title: Database Schema
+      -
+        id: file-structure
+        title: File Structure
+  -
+    id: models
+    title: Models & Database
+    children:
+      -
+        id: models-products
+        title: Products & Catalog
+        children:
+          -
+            id: model-product
+            entry: model-product
+          -
+            id: model-product-variant
+            entry: model-product-variant
+          -
+            id: model-product-option
+            title: ProductOption
+          -
+            id: model-brand
+            title: Brand
+          -
+            id: model-category
+            title: Category
+          -
+            id: model-collection
+            title: Collection
+      -
+        id: models-sites-channels
+        title: Sites & Channels
+        children:
+          -
+            id: model-site
+            entry: model-site
+          -
+            id: model-channel
+            entry: model-channel
+          -
+            id: model-catalog
+            title: Catalog
+      -
+        id: models-customers
+        title: Customers & Orders
+        children:
+          -
+            id: model-customer
+            entry: model-customer
+          -
+            id: model-customer-group
+            title: CustomerGroup
+          -
+            id: model-address
+            title: Address
+          -
+            id: model-order
+            title: Order
+          -
+            id: model-order-item
+            title: OrderItem
+          -
+            id: model-cart
+            title: Cart
+      -
+        id: models-pricing
+        title: Pricing & Discounts
+        children:
+          -
+            id: model-variant-price
+            title: VariantPrice
+          -
+            id: model-discount
+            title: Discount
+          -
+            id: model-coupon
+            title: Coupon
+      -
+        id: models-inventory
+        title: Inventory
+        children:
+          -
+            id: model-inventory-item
+            title: InventoryItem
+          -
+            id: model-inventory-level
+            title: InventoryLevel
+          -
+            id: model-location
+            title: Location
+          -
+            id: model-stock-movement
+            title: StockMovement
+      -
+        id: models-fidelity
+        title: Fidelity System
+        children:
+          -
+            id: model-fidelity-card
+            title: FidelityCard
+          -
+            id: model-fidelity-transaction
+            title: FidelityTransaction
+      -
+        id: models-shipping-tax
+        title: Shipping & Tax
+        children:
+          -
+            id: model-shipping-zone
+            title: ShippingZone
+          -
+            id: model-shipping-rate
+            title: ShippingRate
+          -
+            id: model-tax-rate
+            title: TaxRate
+  -
+    id: features
+    title: Features
+    children:
+      -
+        id: pricing-system
+        title: Pricing System
+      -
+        id: multi-currency
+        title: Multi-Currency
+      -
+        id: inventory-management
+        title: Inventory Management
+      -
+        id: fidelity-system
+        title: Loyalty & Fidelity
+      -
+        id: shipping-configuration
+        title: Shipping Configuration
+      -
+        id: tax-system
+        title: Tax System
+      -
+        id: discounts-coupons
+        title: Discounts & Coupons
+      -
+        id: customer-groups
+        title: Customer Groups
+      -
+        id: multi-language
+        title: Multi-Language
+      -
+        id: media-management
+        title: Media Management
+      -
+        id: search-filters
+        title: Search & Filters
+  -
+    id: addon-system
+    title: Addon System
+    children:
+      -
+        id: addon-overview
+        entry: addon-system-overview
+      -
+        id: addon-creating
+        title: Creating Addons
+      -
+        id: addon-structure
+        title: Addon Structure
+      -
+        id: addon-service-providers
+        title: Service Providers
+      -
+        id: addon-routes-controllers
+        title: Routes & Controllers
+      -
+        id: addon-custom-fields
+        title: Custom Field Types
+      -
+        id: addon-widgets
+        title: Widgets & Panels
+      -
+        id: addon-actions
+        title: Actions & Bulk Operations
+      -
+        id: addon-events
+        title: Events & Listeners
+      -
+        id: addon-injection-points
+        title: Injection Points
+      -
+        id: addon-navigation
+        title: Navigation Extension
+      -
+        id: addon-blueprints
+        title: Custom Blueprints
+      -
+        id: addon-api-extensions
+        title: API Extensions
+      -
+        id: addon-best-practices
+        title: Best Practices
+      -
+        id: addon-publishing
+        title: Publishing Addons
+  -
+    id: rest-api
+    title: REST API
+    children:
+      -
+        id: api-overview
+        title: API Overview
+      -
+        id: api-authentication
+        title: Authentication
+      -
+        id: api-pagination
+        title: Pagination
+      -
+        id: api-filtering
+        title: Filtering & Sorting
+      -
+        id: api-errors
+        title: Error Handling
+      -
+        id: api-rate-limiting
+        title: Rate Limiting
+      -
+        id: api-resources
+        title: API Resources
+        children:
+          -
+            id: api-products
+            title: Products
+          -
+            id: api-variants
+            title: Variants
+          -
+            id: api-sites
+            title: Sites
+          -
+            id: api-channels
+            title: Channels
+          -
+            id: api-customers
+            title: Customers
+          -
+            id: api-orders
+            title: Orders
+          -
+            id: api-cart
+            title: Cart
+          -
+            id: api-pricing
+            title: Pricing
+          -
+            id: api-inventory
+            title: Inventory
+          -
+            id: api-fidelity
+            title: Fidelity
+          -
+            id: api-shipping
+            title: Shipping
+          -
+            id: api-discounts
+            title: Discounts
+      -
+        id: api-webhooks
+        title: Webhooks
+      -
+        id: api-postman
+        title: Postman Collection
+  -
+    id: graphql-api
+    title: GraphQL API
+    children:
+      -
+        id: graphql-overview
+        title: GraphQL Overview
+      -
+        id: graphql-playground
+        title: GraphQL Playground
+      -
+        id: graphql-schema
+        title: Schema & Types
+      -
+        id: graphql-queries
+        title: Queries
+      -
+        id: graphql-mutations
+        title: Mutations
+      -
+        id: graphql-subscriptions
+        title: Subscriptions
+      -
+        id: graphql-pagination
+        title: Pagination
+      -
+        id: graphql-filtering
+        title: Filtering & Sorting
+      -
+        id: graphql-resources
+        title: GraphQL Resources
+        children:
+          -
+            id: graphql-products
+            title: Products
+          -
+            id: graphql-variants
+            title: Variants
+          -
+            id: graphql-sites
+            title: Sites
+          -
+            id: graphql-customers
+            title: Customers
+          -
+            id: graphql-orders
+            title: Orders
+          -
+            id: graphql-cart
+            title: Cart
+  -
+    id: guides
+    title: Guides & Tutorials
+    children:
+      -
+        id: guide-first-product
+        title: Creating Your First Product
+      -
+        id: guide-multi-site
+        title: Setting Up Multi-Site
+      -
+        id: guide-custom-pricing
+        title: Implementing Custom Pricing
+      -
+        id: guide-b2b-store
+        title: Building a B2B Store
+      -
+        id: guide-loyalty-program
+        title: Setting Up Loyalty Program
+      -
+        id: guide-shipping-setup
+        title: Configuring Shipping
+      -
+        id: guide-tax-configuration
+        title: Tax Configuration
+      -
+        id: guide-headless-storefront
+        title: Building Headless Storefront
+      -
+        id: guide-mobile-app
+        title: Mobile App Integration
+      -
+        id: guide-performance
+        title: Performance Optimization
+      -
+        id: guide-testing
+        title: Testing Your Store
+      -
+        id: guide-deployment
+        title: Deployment
+  -
+    id: frontend
+    title: Frontend Development
+    children:
+      -
+        id: frontend-overview
+        title: Frontend Overview
+      -
+        id: frontend-inertia
+        title: Inertia.js Integration
+      -
+        id: frontend-vue-components
+        title: Vue 3 Components
+      -
+        id: frontend-forms
+        title: Forms & Validation
+      -
+        id: frontend-tailwind
+        title: Tailwind CSS
+      -
+        id: frontend-vite
+        title: Vite Configuration
+      -
+        id: frontend-typescript
+        title: TypeScript Setup
+      -
+        id: frontend-state-management
+        title: State Management (Pinia)
+      -
+        id: frontend-asset-building
+        title: Asset Building
+      -
+        id: frontend-hot-reload
+        title: Hot Module Replacement
+  -
+    id: advanced
+    title: Advanced Topics
+    children:
+      -
+        id: advanced-events
+        title: Event System
+      -
+        id: advanced-queue-jobs
+        title: Queue & Jobs
+      -
+        id: advanced-caching
+        title: Caching Strategy
+      -
+        id: advanced-search
+        title: Search Implementation
+      -
+        id: advanced-permissions
+        title: Permissions & Roles
+      -
+        id: advanced-multi-tenant
+        title: Multi-Tenancy
+      -
+        id: advanced-integrations
+        title: Third-Party Integrations
+      -
+        id: advanced-payment-gateways
+        title: Payment Gateways
+      -
+        id: advanced-analytics
+        title: Analytics & Reporting
+      -
+        id: advanced-localization
+        title: Localization (i18n)
+      -
+        id: advanced-seo
+        title: SEO Optimization
+      -
+        id: advanced-security
+        title: Security Best Practices
+  -
+    id: reference
+    title: Reference
+    children:
+      -
+        id: ref-configuration
+        title: Configuration Reference
+      -
+        id: ref-artisan-commands
+        title: Artisan Commands
+      -
+        id: ref-helpers
+        title: Helper Functions
+      -
+        id: ref-facades
+        title: Facades
+      -
+        id: ref-enums
+        title: Enums
+      -
+        id: ref-events
+        title: Events Reference
+      -
+        id: ref-exceptions
+        title: Exceptions
+      -
+        id: ref-validation-rules
+        title: Validation Rules
+      -
+        id: ref-blade-components
+        title: Blade Components
+      -
+        id: ref-vue-components
+        title: Vue Components
+  -
+    id: resources
+    title: Resources
+    children:
+      -
+        id: resources-examples
+        title: Code Examples
+      -
+        id: resources-tutorials
+        title: Video Tutorials
+      -
+        id: resources-community
+        title: Community
+      -
+        id: resources-support
+        title: Support
+      -
+        id: resources-changelog
+        title: Changelog
+      -
+        id: resources-roadmap
+        title: Roadmap
+      -
+        id: resources-contributing
+        title: Contributing
+      -
+        id: resources-license
+        title: License

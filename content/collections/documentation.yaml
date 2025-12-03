@@ -1,0 +1,16 @@
+title: 'Cartino Documentation'
+template: docs/show
+layout: docs/layout
+revisions: false
+route: "{{ if !parent_uri }}docs/{{ /if }}{{ parent_uri ?= '{parent_uri}/' }}{{ slug }}"
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private
+preview_targets:
+  -
+    label: Entry
+    url: '{permalink}'
+    refresh: true
+structure:
+  root: true
